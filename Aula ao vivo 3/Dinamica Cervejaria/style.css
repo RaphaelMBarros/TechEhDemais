@@ -1,0 +1,66 @@
+body {
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.bem_vindo {
+    text-align: center;
+    background-color: ;
+}
+
+.bem_vindo p {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}   
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #CA7900;
+    width: 70%;
+    height: 30%;
+    border-radius: 30px;
+}
+
+.card p {
+    color: white;
+    font-size: 2rem;
+}
+
+.Card_btn {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+
+} 
+
+.Card_btn button {
+    padding: 5px 30px;
+    background-color: #CA7900;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: 5px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Card_btn button:hover{
+    background-color: white;
+    color: #CA7900;
+    transition: all 1s;
+}
+
+.imagem {
+    position: absolute;
+    top: 325px
+    
+}
