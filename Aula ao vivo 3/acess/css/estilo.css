@@ -11,12 +11,14 @@ body {
 }
 
 h1 {
+    display: flex;
     font-size: 40px;
     font-weight: 600;
+    align-items: flex-end;
 }
 
 h1 img {
-    width: 60px;
+    width: 35px;
 }
 
 .formulario {
@@ -25,6 +27,8 @@ h1 img {
 
     display: flex;
     flex-direction: column;
+    
+    align-items: center;
 }
 
 .formulario input {
@@ -40,7 +44,8 @@ h1 img {
     width: 100px;
     height: 50px;
     font-size: 20px;
-    
+    margin: 50px;
+
     border-radius: 10px;
     background-color: #A2A2A2;
     border: 0px;
@@ -48,5 +53,11 @@ h1 img {
 
     cursor: pointer;
 
+
+}
+
+.formulario button:hover {
+    background-color: #EBEBEB;
+    color:black
 
 }
