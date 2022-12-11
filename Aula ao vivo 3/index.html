@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="acess/css/estilo.css">
     <script>
 
+
         function calculaMedia() { 
-            let n1 = document.getElementById("nota1").value
-            let n1 = document.getElementById("nota2").value
+            let n1 = document.querySelector("#nota1").value
+            let n2 = document.querySelector("#nota2").value
 
             let media = (eval(n1) + eval(n2)) / 2
 
-            alert(media)
+            window.location.href="resultado.html?media="+media
+
+
         }
+
+        
 
     </script>
 
@@ -23,8 +28,8 @@
 <body>
     <h1>Painel do Aluno <img src="acess/images/lapis.png" alt="Lápis"></h1>
 
-    <section>
-        <form class="formulario">
+    <section class="formulario">
+        
             <label> Digite a primeira Nota:</label>
             <input type="number" id="nota1" placeholder="Primeira Nota">
     
@@ -33,7 +38,7 @@
     
             <button onclick="calculaMedia()">Calcular</button>
 
-        </form>
+        
 
     </section>
 
